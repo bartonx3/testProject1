@@ -51,7 +51,7 @@ public class CalculatorTest {
         int num2=2;
 
         //when
-        int result = Calculator.divide(num1,num2);
+        double result = Calculator.divide(num1,num2);
 
         //then
         Assertions.assertEquals(2,result);
