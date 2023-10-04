@@ -12,7 +12,7 @@ public class Cinema{
     }
 
     String placeStatus(){
-        return "Place " + place + " in row " + row + " is " + status;
+        return "Place " + place + " in row " + row + " is  " + status;
     }
 
 }
